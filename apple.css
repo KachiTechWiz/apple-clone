@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    padding-left: 0;
+    background-color: rgb(250,250,250);
+    margin: 0;
+}
+
+.head{
+    height: 54px;
+    /* margin-top: -10px; */
+    padding: 0;
+    top: -8px;
+    left: 0px;
+    width: 2000px;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(55, 55, 55);
+}
+
+.head2{
+    background-color: black;
+    height: 90vh;
+}
+
+.navv ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    gap: 90px;
+    margin: 0;
+    margin-right: 840px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.navv ul li{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+.navv ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(212, 207, 207);
+    font-family: calibri;
+    font-size: 12px;
+}
+
+.navv ul li a:hover{
+    color: white;
+}
+.hover-underline-animation1{
+    background-color: white;
+    color: white;
+    background-image: url(/png-apple-logo-9741.png);
+}
+
+.img{
+    background-image: url(https://www.apple.com/v/ipad-10.9/a/images/overview/hero/hero__ecv967jz1y82_large.jpg);
+    height: 70vh;
+    margin-top: 50px;
+    margin-left: 313px;
+    font-size: larger;
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.unit-copy-wrapperr{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-style: normal;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    pointer-events: none;
+    margin-top: -160px;
+    position: relative;
+    left: -220px;
+    text-align: center;
+    padding-top: 0px;
+}
+.unit-copy-wrapper01{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-style: normal;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    pointer-events: none;
+    margin-top: 70px;
+    position: relative;
+    left: 20px;
+    text-align: center;
+    padding-top: 0px;
+}
+.headlinie{
+    font-size: 60px;
+    padding: 1px;
+    font-weight: 550;
+    z-index: -1;
+    color: black;
+}
+.subheadd{
+    font-size: 22px;
+    margin-top: 5px;
+    color: black; 
+}
+.unit-copy-wrapperr1{
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-style: normal;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    -webkit-box-direction: normal;
+    position: relative;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    top: -200px;
+    left: -390px;
+    z-index: -1;
+    color: white;
+    pointer-events: none;
+    /* margin-top: var(--global-nav-collective-height); */
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.headline1{
+    font-size: 60px;
+    padding: 1px;
+    font-weight: 550;
+}
+
+.icon-icon-after-icon-chevronright{
+    font-size: 20px;
+    margin-top: -200px;
+    text-decoration: none;
+}
+
+.iphone14{
+    background-image: url(/iphone-14-pro_overview__e2a7u9jy63ma_og.png);
+    height: 300px;
+    position: relative;
+    padding: 5px;
+    top: 0px;
+    left: 330px;
+    top: 200px;
+    z-index: 100;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ipn-text{
+    background-image:url(/iphine-14.png);
+    position: relative;
+    left: 40%;
+    top: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+}
+
+.iphone2-hand-held{
+    background-image: url(/iphone-14.jpg);
+    height: 50vh;
+    position: relative;
+    margin-top: 50px;
+    padding: 5px;
+    top: 100px;
+    left: 25%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.grid{
+    display: grid;
+    position: relative;
+    left: 50px;
+    grid-template-columns: 2;
+    grid-template-rows:2;
+    margin-top: 100px;
+}
+.pic{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 15px;
+    height: 550px;
+    background-size: contain;
+    background-image: url(/apple-laptop.png);
+    background-repeat: no-repeat;
+}
+
+.pic1{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    height: 350px;
+    margin: 15px;
+    position: relative;
+    left: 200px;
+    top: 150px;
+    background-size: contain;
+    background-image: url(/mac-air.png);
+    background-repeat: no-repeat;
+}
+
+ .pic3{
+    
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 15px;
+    height: 550px;
+    background-size: contain;
+    background-image: url(/super-char.png);
+    background-repeat: no-repeat;
+}
+.pic4{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 15px;
+    height: 520px;
+    position: relative;
+    left: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/mac.png);
+}
+.footerr{
+    background-color: whitesmoke;
+    display: flex;
+    height: 300px;
+    position: relative;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 12px;
+    gap: -0px;
+}
+.ser{
+    position: relative;
+    top: 50px;
+}
+
+.ac-gf-directory-column-section-item{
+    position: relative;
+    top: 50px;
+    list-style: none;
+    left: -30px;
+}
+
+
+.ac-gf-directory-column-section{
+    font-synthesis: none;
+    --footer-background:  #f5f5f7;
+    --footer-border-color:  #d2d2d7;
+    --footer-text-color:  #6e6e73;
+    --footer-link-color:  #424245;
+    --footer-directory-title-color:  #1d1d1f;
+    --footer-directory-title-color-hover:  #000;
+    color: var(--footer-text-color);
+    box-sizing: content-box;
+    letter-spacing: normal;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    text-align: inherit;
+    pointer-events: none;
+}
+
+@media  only screen and 
+(max-width:600px){
+    *{
+        box-sizing: border-box;
+    }
+    ul{
+        display: none;
+    }
+    .navv ul li a{
+        display: none;
+    }
+    .img{
+        margin-left: -10%;
+        top: -50px;
+        position: relative;
+    }
+    .headlinie{
+        font-size: 30px;
+    }
+    .subheadd{
+        font-size: 14px;
+    }
+    .iphone14{
+        margin-left: -60px;
+        position: static;
+        height: 500px;
+        width: 500px;
+        overflow-y: hidden;
+        margin-top: 350px;
+    }
+    .iphone2-hand-held{
+        margin-left: -50%;
+    }
+    .ipn-text{
+        margin-left: -25%;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        width: 95%;
+    }
+    .pic{
+        /* background-color: red; */
+        /* background-image: url(/ipad.jpg); */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic1{
+        flex-direction: column;
+        position: relative;
+        top: -280px;
+        left: -0px;
+    }
+    .pic3{
+        flex-direction: column;
+        position: relative;
+        top: -280px;
+        left: -0px;
+    }
+
+    .pic4{
+        flex-direction: column;
+        position: relative;
+        top: -550px;
+        left: -0px;
+    }
+}
